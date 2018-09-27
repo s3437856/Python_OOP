@@ -26,7 +26,8 @@ class Student:
 def main():
     student_1 = Student('David', 'Diaz', 'Male', '3')
     print(isinstance(student_1, Student))
-    print(student_1.get_sex())
+    print(student_1.get_all())
+    print(student_1.sex)
     
     
 if __name__ == '__main__':
